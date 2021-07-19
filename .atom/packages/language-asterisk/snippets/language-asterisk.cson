@@ -1,0 +1,7 @@
+".source.asterisk.config":
+  exten:
+    prefix: "ex"
+    body: "exten => s,n,"
+  include:
+    prefix: "inc"
+    body: "include => "

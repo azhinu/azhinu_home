@@ -1,0 +1,25 @@
+Pachages list
+
+https://github.com/jaseg/lolcat
+
+fzf -- friendly find
+tealdeer -- simple man
+bash-completion -- bash autocomplete
+ipcalc -- ip mask calc
+fd -- simple find
+
+Brew:
+tealdeer -- simple man
+grep
+python
+coreutils
+git
+whatmask -- ip mask calc
+lorem
+fzf
+keepassxc
+google-chrome
+telegram
+
+
+brew install tealdeer grep python coreutils git whatmask lorem fzf keepassxc zsh google-chrome telegram qbittorrent webtorrent hyper-canary atom sqlectron spotify

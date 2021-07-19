@@ -1,0 +1,6 @@
+#!/usr/bin/env
+
+git pull
+git add .atom .sheldon .ssh/config .bash_profile .bashrc .fzf.zsh .gitignore .hyper.js .p10k.zsh .profile .zpreztorc .zprofile .zshenv .zshrc .git_add_files packages.txt
+git commit -m "Updated home dir"
+git push

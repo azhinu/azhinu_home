@@ -1,0 +1,74 @@
+"*":
+  "atom-material-ui":
+    colors:
+      abaseColor: "#7e57c2"
+      accentColor: "#b0e457"
+      paintCursor: true
+      predefinedColor: "Purple"
+    tabs:
+      compactTabs: true
+    ui: {}
+  core:
+    closeEmptyWindows: false
+    customFileTypes:
+      "source.ansible-advanced": [
+        "yml"
+      ]
+      "text.generic-config": [
+        "conf"
+      ]
+    disabledPackages: [
+      "package-generator"
+      "command-palette"
+      "rest-client"
+      "fuzzy-finder"
+      "language-clojure"
+      "language-asterisk"
+      "busy-signal"
+      "linter-shellcheck"
+      "wrap-guide"
+      "timecop"
+      "symbols-view"
+      "welcome"
+    ]
+    openEmptyEditorOnStart: false
+    projectHome: "/Users/Ari/Documents"
+    telemetryConsent: "no"
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+    useProxySettingsWhenCallingApm: false
+  editor:
+    fontFamily: "SauceCodePro Nerd Font, FiraCode Nerd Font, Menlo, Consolas, DejaVu Sans Mono, monospace"
+    fontSize: 15
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "b1553e6c-0982-4a6e-b6f1-5b28f167dcf2"
+  gitlab:
+    serverUrl: "https://git.mycbl.ru"
+  languagetool:
+    motherTongue: "ru-RU"
+    preferredVariants: [
+      "en-US"
+      "ru-RU"
+    ]
+  "linter-ansible-linting":
+    fiveBeta: true
+    timeout: 60
+    versionFive: true
+  "linter-ui-default":
+    showPanel: true
+  "markdown-preview":
+    breakOnSingleNewline: true
+  "remote-atom":
+    keep_alive: true
+    launch_at_startup: true
+  "split-diff":
+    ignoreWhitespace: true
+  tabs:
+    enableMruTabSwitching: false
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false

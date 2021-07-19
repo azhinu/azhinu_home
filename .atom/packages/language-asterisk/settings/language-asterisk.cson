@@ -1,0 +1,9 @@
+'.source.asterisk.config':
+  'editor':
+    'commentStart': '; '
+'.source.ael':
+  'editor':
+    'commentStart': '// '
+'.source.ael2':
+  'editor':
+    'commentStart': '// '

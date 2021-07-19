@@ -1,0 +1,72 @@
+{
+  "_from": "https://www.atom.io/api/packages/languagetool/versions/0.1.1/tarball",
+  "_id": "languagetool@0.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-QR2Kt4o+CF29NPL5aK37FAubZ8wgJ9ljXiv1BE9a8RMH1hhTsKb0V8VOQ8yt8NpjCkog7qurLVzYPoBQz4qyIg==",
+  "_location": "/languagetool",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/languagetool/versions/0.1.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/languagetool/versions/0.1.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/languagetool/versions/0.1.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/languagetool/versions/0.1.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/languagetool/versions/0.1.1/tarball",
+  "_shasum": "df21cee79d04f8e2c19018d08dc089607d2a3682",
+  "_spec": "https://www.atom.io/api/packages/languagetool/versions/0.1.1/tarball",
+  "_where": "/private/var/folders/41/b6s3bn7s57l0vfh0n4p0hmhh0000gq/T/apm-install-dir-2020724-40572-15z59sd.ws0w",
+  "activationCommands": {
+    "atom-workspace": "languagetool:check"
+  },
+  "bugs": {
+    "url": "https://github.com/fhchl/languagetool/issues"
+  },
+  "bundleDependencies": false,
+  "configSchema": {
+    "language": {
+      "type": "string",
+      "default": "auto",
+      "description": "A language code like en or en-US, or auto to guess the language automatically (see Preferred Variants below). For languages with variants (English, German, Portuguese) spell checking will only be activated when you specify the variant, e.g. en-GB instead of just en.",
+      "order": "1"
+    },
+    "motherTongue": {
+      "type": "string",
+      "default": "",
+      "description": "A language code of the user's native language, enabling false friends checks for some language pairs.",
+      "order": "2"
+    },
+    "preferredVariants": {
+      "type": "array",
+      "default": [
+        "en-US",
+        "de-DE"
+      ],
+      "description": "Comma-separated list of preferred language variants. The language detector used with language=auto can detect e.g. English, but it cannot decide whether British English or American English is used. Thus this parameter can be used to specify the preferred variants like en-GB and de-AT. Only available with language=auto.",
+      "order": "3"
+    }
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.0",
+    "request": "2.78.0"
+  },
+  "deprecated": false,
+  "description": "Check spelling and grammar using LanguageTool",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/fhchl/languagetool#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/languagetool",
+  "name": "languagetool",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fhchl/languagetool.git"
+  },
+  "version": "0.1.1"
+}
