@@ -7,6 +7,8 @@
 !.sheldon
 .sheldon/*
 !.sheldon/plugins.toml
+!.ssh
+.ssh/*
 !.ssh/config
 !.gitconfig
 !.gitignore
