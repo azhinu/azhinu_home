@@ -1,0 +1,7 @@
+#!/usr/bin/env
+
+dotfiles="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+$dotfiles pull
+$dotfiles add .
+$dotfiles commit -m "Updated home dir"
+$dotfiles push

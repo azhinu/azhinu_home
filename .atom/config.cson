@@ -1,0 +1,145 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "7d0733e4-6fcc-4c4e-86ae-1ffe3c99fd8e"
+  "atom-ide-golang":
+    customGoPath: "/Users/Ari/go"
+  "atom-ide-ui":
+    "atom-ide-code-format":
+      formatOnSave: true
+    "atom-ide-diagnostics-ui":
+      statusBarPosition: "right"
+  "atom-material-ui":
+    colors:
+      abaseColor: "#7e57c2"
+      accentColor: "#b0e457"
+      genAccent: true
+      paintCursor: true
+      predefinedColor: "Purple"
+    fonts: {}
+    tabs:
+      compactTabs: true
+    ui: {}
+  "autocomplete-ansible":
+    pythonPaths: "/usr/local/bin/python3"
+  autosave: {}
+  core:
+    closeEmptyWindows: false
+    customFileTypes:
+      "source.nginx": [
+        "nginx.conf"
+        "nginx"
+        "conf.nginx"
+      ]
+      "source.yaml": [
+        "yml"
+      ]
+      "text.generic-config": [
+        "conf"
+      ]
+    disabledPackages: [
+      "package-generator"
+      "rest-client"
+      "language-clojure"
+      "language-asterisk"
+      "wrap-guide"
+      "timecop"
+      "symbols-view"
+      "welcome"
+      "encoding-selector"
+      "spell-check"
+      "grammar-mode-fork"
+      "grammar-mode-fork"
+      "grammar-mode-fork"
+      "deprecation-cop"
+      "fuzzy-finder"
+      "styleguide"
+      "dev-live-reload"
+      "markdown-scroll-sync"
+      "line-ending-selector"
+      "markdown-preview"
+      "atom-ide-ui"
+    ]
+    followSymlinks: false
+    openEmptyEditorOnStart: false
+    projectHome: "/Users/Ari/Documents/"
+    restorePreviousWindowsOnStart: "always"
+    telemetryConsent: "limited"
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+    useProxySettingsWhenCallingApm: false
+  editor:
+    fontFamily: "SauceCodePro Nerd Font, FiraCode Nerd Font, Menlo, Consolas, DejaVu Sans Mono, monospace"
+    fontSize: 16
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "b1553e6c-0982-4a6e-b6f1-5b28f167dcf2"
+  gitlab:
+    serverUrl: "https://git.mycbl.ru"
+  "go-plus":
+    config:
+      gopath: "/Users/Ari/go"
+    disabledBundledPackages: [
+      "go-signature-statusbar"
+      "go-debug"
+    ]
+    lint:
+      tool: "golangci-lint"
+    test:
+      runTestsOnSave: false
+  languagetool:
+    motherTongue: "ru-RU"
+    preferredVariants: [
+      "en-US"
+      "ru-RU"
+    ]
+  "line-ending-selector":
+    defaultLineEnding: "LF"
+  "linter-ansible-linting":
+    ansibleLintExecutablePath: "/usr/local/bin/ansible-lint"
+    displaySeverity: true
+    fiveBeta: true
+    timeout: 60
+    versionFive: true
+  "linter-shellcheck":
+    enableNotice: true
+    shellcheckExecutablePath: "/usr/local/bin/shellcheck"
+  "linter-ui-default":
+    panelHeight: 298
+    showPanel: true
+    showProviderName: true
+    statusBarPosition: "Right"
+  "markdown-preview":
+    breakOnSingleNewline: true
+  "markdown-preview-enhanced":
+    mathRenderingOption: "None"
+    mermaidTheme: "forest"
+    previewTheme: "atom-material.css"
+    revealjsTheme: "none.css"
+    usePuppeteerCore: false
+  "markdown-preview-plus":
+    extensions: [
+      "md"
+    ]
+    markdownItConfig:
+      useFontmatter: false
+      useImsize: false
+      useLazyHeaders: false
+    previewConfig:
+      nativePageScrollKeys: false
+    richClipboard: false
+    syncConfig:
+      syncPreviewOnChange: true
+      syncPreviewOnEditorScroll: true
+  "remote-atom":
+    keep_alive: true
+    launch_at_startup: true
+  "split-diff":
+    ignoreWhitespace: true
+  tabs:
+    enableMruTabSwitching: false
+  "tree-view": {}
+  welcome:
+    showOnStartup: false

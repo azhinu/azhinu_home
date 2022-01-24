@@ -1,0 +1,60 @@
+Packages:
+  Linux:
+    fd-find
+    fzf
+    httpie
+    ipcalc
+    lnav
+    sd
+    tealdeer
+  Linux Github:
+    bat
+    bottom
+    ctop
+    duf
+    gdu
+    procs
+    lsd
+
+  Mac:
+    tealdeer #Simple man pages
+    python #Update python
+    coreutils #Use GNU utilities instead of BSD
+    grep #Use GNU grep
+    git #Update Git
+    whatmask #Calculate IP mask
+    lorem #Lorem ipsum
+    fzf #Fuzzy search
+    zsh
+    ffind #FD -- Friendly find
+    sheldon #ZSH plugin manager
+    ansible-lint # Needs for atom
+    shellcheck #Shell linter, needs for atom
+    keepassxc #Password manager
+    google-chrome
+    telegram
+    qbittorrent #BitTorrent client
+    webtorrent #Use torrents for video streaming
+    hyper #Beautiful term
+    atom #Code editor
+    sqlectron #SQL Client
+    spotify
+    gdu #Graphical DU
+    procs #Modern PS alternative
+    sd #Modern sed alternative
+    duf #Graphical DF alternative
+    httpie #Modern CURL alternative
+    miniserve #Small HTTP server
+
+    Brew cli: brew install tealdeer python coreutils git whatmask lorem fzf zsh grep ffind sheldon ansible-lint shellcheck gdu miniserve
+    Brew casks: brew install keepassxc google-chrome telegram qbittorrent webtorrent hyper atom sqlectron spotify
+
+    Other:
+      https://github.com/jaseg/lolcat -- not available at brew
+      https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/SourceCodePro.zip
+      https://github.com/bcicen/ctop
+      https://github.com/dalance/procs
+      https://github.com/muesli/duf
+      https://github.com/chmln/sd
+      https://github.com/chubin/cheat.sh
+      https://github.com/ClementTsang/bottom

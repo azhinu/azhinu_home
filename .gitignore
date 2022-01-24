@@ -1,0 +1,44 @@
+# Ignore everything
+/*
+
+#But not these files...
+!.gitignore
+!.atom
+!.sheldon
+.sheldon/*
+!.sheldon/plugins.toml
+!.ssh/config
+!.gitconfig
+!.gitignore
+!.gitignore_global
+!.git_add_files
+!.hyper.js
+!.zpreztorc
+!.zprofile
+!.zshenv
+!.zshrc
+!.*.zsh
+!packages.yml
+
+
+#General
+**/.DS_Store
+**/.AppleDouble
+**/.LSOverride
+
+
+
+
+#Thumbnails
+**/._*
+
+#Files that might appear in the root of a volume
+**/.DocumentRevisions-V100
+**/.fseventsd
+**/.Spotlight-V100
+**/.TemporaryItems
+**/.Trashes
+**/.VolumeIcon.icns
+**/.com.apple.timemachine.donotpresent
+**/.cache*
+**/*cache*
