@@ -5,11 +5,13 @@
 !.gitignore
 !.atom
 !.sheldon
-.sheldon/*
-!.sheldon/plugins.toml
+.sheldon/repos
+.sheldon/plugins.lock
+
 !.ssh
 .ssh/*
 !.ssh/config
+
 !.gitconfig
 !.gitignore
 !.gitignore_global

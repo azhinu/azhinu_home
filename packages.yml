@@ -17,36 +17,47 @@ Packages:
     lsd
 
   Mac:
-    tealdeer #Simple man pages
-    python #Update python
-    coreutils #Use GNU utilities instead of BSD
-    grep #Use GNU grep
-    git #Update Git
-    whatmask #Calculate IP mask
-    lorem #Lorem ipsum
-    fzf #Fuzzy search
-    zsh
-    ffind #FD -- Friendly find
-    sheldon #ZSH plugin manager
     ansible-lint # Needs for atom
-    shellcheck #Shell linter, needs for atom
-    keepassxc #Password manager
-    google-chrome
-    telegram
-    qbittorrent #BitTorrent client
-    webtorrent #Use torrents for video streaming
-    hyper #Beautiful term
     atom #Code editor
-    sqlectron #SQL Client
-    spotify
-    gdu #Graphical DU
-    procs #Modern PS alternative
-    sd #Modern sed alternative
+    bat # Modern cat
+    coreutils #Use GNU utilities instead of BSD
     duf #Graphical DF alternative
+    ffind #FD -- Friendly find
+    fzf #Fuzzy search
+    gdu #Graphical DU
+    git #Update Git
+    google-chrome
+    grep #Use GNU grep
     httpie #Modern CURL alternative
+    hyper #Beautiful term
+    jq # Cli json processor
+    keepassxc #Password manager
+    lnav # TUI Log inspector
+    lorem #Lorem ipsum
+    lsd # Modern LS
     miniserve #Small HTTP server
+    nakabonne/ali # HTTP benchmark
+    procs #Modern PS alternative
+    python #Update python
+    qbittorrent #BitTorrent client
+    ripgrep # Modern grep
+    rsync # Update default rsync
+    sd #Modern sed alternative
+    sheldon #ZSH plugin manager
+    shellcheck #Shell linter, needs for atom
+    spotify
+    sqlectron #SQL Client
+    tealdeer #Simple man pages
+    telegram
+    webtorrent #Use torrents for video streaming
+    whatmask #Calculate IP mask
+    zsh # Update ZSH
 
-    Brew cli: brew install tealdeer python coreutils git whatmask lorem fzf zsh grep ffind sheldon ansible-lint shellcheck gdu miniserve
+
+lazydocker
+
+
+    Brew cli: brew install ansible-lint atom bat coreutils duf ffind fzf gdu git grep httpie jq lnav lorem lsd miniserve procs python ripgrep rsync sd sheldon shellcheck tealdeer  whatmask zsh
     Brew casks: brew install keepassxc google-chrome telegram qbittorrent webtorrent hyper atom sqlectron spotify
 
     Other:

@@ -58,7 +58,7 @@
       "markdown-scroll-sync"
       "line-ending-selector"
       "markdown-preview"
-      "atom-ide-ui"
+      "linter"
     ]
     followSymlinks: false
     openEmptyEditorOnStart: false
@@ -108,7 +108,6 @@
     shellcheckExecutablePath: "/usr/local/bin/shellcheck"
   "linter-ui-default":
     panelHeight: 298
-    showPanel: true
     showProviderName: true
     statusBarPosition: "Right"
   "markdown-preview":
@@ -138,8 +137,10 @@
     launch_at_startup: true
   "split-diff":
     ignoreWhitespace: true
+  "status-bar": {}
   tabs:
     enableMruTabSwitching: false
-  "tree-view": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
