@@ -1,0 +1,120 @@
+name: 'Caddyfile'
+scopeName: 'source.Caddyfile'
+fileTypes: [
+    'Caddyfile'
+]
+patterns: [
+    {
+        include: '#comments'
+    }
+    {
+        include: '#variables'
+    }
+    {
+        include: '#strings'
+    }
+    {
+        begin: '(^.*)({\\s+$)'
+        end: '^\\s*}$'
+        beginCaptures:
+            0:
+                name: 'support.class.Caddyfile'
+        endCaptures:
+            0:
+                name: 'support.class.Caddyfile'
+        patterns: [
+            {
+                include: '#comments'
+            }
+            {
+                include: '#variables'
+            }
+            {
+                include: '#strings'
+            }
+            {
+                comment: 'Directives'
+                captures:
+                    2:
+                        comment: 'Directive'
+                        name: 'support.type.Caddyfile'
+                    4:
+                        comment: 'Shell Command'
+                        name: 'string.Caddyfile'
+                    5:
+                        comment: 'Directive'
+                        name: 'support.type.Caddyfile'
+                match: '^\\s*((on)( \\b\\w+\\b )(.*$))?([\\w-]*)'
+            }
+            {
+                begin: '\\s+{$'
+                end: '^\\s*}$'
+                patterns: [
+                    {
+                        include: '#comments'
+                    }
+                    {
+                        include: '#variables'
+                    }
+                    {
+                        include: '#strings'
+                    }
+                    {
+                        comment: 'Sub Directives'
+                        captures:
+                            2:
+                                name: 'keyword.Caddyfile'
+                        match: '(^\\s*)([\\w-]+\\b)'
+                    }
+                ]
+            }
+        ]
+    }
+    {
+        comment: 'import: the only directive allowed outside a block'
+        match: '^\\s*import'
+        name: 'support.type.Caddyfile'
+    }
+    {
+        comment: 'lines that end in a comma are still part of the main directive, there may be a better way of doing this but I couol'
+        match: '(^.*)(,\\s+$)'
+        name: 'support.class.Caddyfile'
+    }
+]
+repository:
+    variables:
+        patterns: [
+            {
+                comment: 'Variables'
+                match: '{[$\\w]+}'
+                name: 'variable.Caddyfile'
+            }
+        ]
+    comments:
+        patterns: [
+            {
+                comment: 'Single Line Comments'
+                match: '#.*'
+                name: 'comment.line.Caddyfile'
+            }
+        ]
+    strings:
+        patterns: [
+            {
+                comment: 'Double Quoted Strings'
+                begin: '"'
+                end: '"'
+                name: 'string.quoted.double.Caddyfile'
+                patterns: [
+                    {
+                        include: '#variables'
+                    }
+                ]
+            }
+            {
+                comment: 'Single Quoted Strings'
+                begin: '\''
+                end: '\''
+                name: 'string.quoted.single.Caddyfile'
+            }
+        ]

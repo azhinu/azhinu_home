@@ -1,0 +1,40 @@
+{
+  "_from": "https://www.atom.io/api/packages/language-ansible/versions/0.2.2/tarball",
+  "_id": "language-ansible@0.2.2",
+  "_inBundle": false,
+  "_integrity": "sha512-HpAteKK+aav7iF7WiHgJWGJgvJFygXflKf2KbGl1LzolNTIRypvB7QyQQp+060n/o3kaFIXy/kaGMUtLabc1wQ==",
+  "_location": "/language-ansible",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/language-ansible/versions/0.2.2/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/language-ansible/versions/0.2.2/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/language-ansible/versions/0.2.2/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/language-ansible/versions/0.2.2/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/language-ansible/versions/0.2.2/tarball",
+  "_shasum": "0f6f4f2defd3c5373351c053671cb10fec5464ef",
+  "_spec": "https://www.atom.io/api/packages/language-ansible/versions/0.2.2/tarball",
+  "_where": "/private/var/folders/41/b6s3bn7s57l0vfh0n4p0hmhh0000gn/T/apm-install-dir-120218-17707-18wra7w.kqhs",
+  "bugs": {
+    "url": "https://github.com/haad/language-Ansible/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Ansible syntax package",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/haad/language-Ansible#readme",
+  "license": "MIT",
+  "name": "language-ansible",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haad/language-Ansible.git"
+  },
+  "version": "0.2.2"
+}

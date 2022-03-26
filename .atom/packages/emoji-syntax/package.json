@@ -1,0 +1,69 @@
+{
+  "_from": "https://www.atom.io/api/packages/emoji-syntax/versions/1.7.6/tarball",
+  "_id": "emoji-syntax@1.7.6",
+  "_inBundle": false,
+  "_integrity": "sha512-P+p/GWeyqgDGZb+zECSgKMYPp44XOC5or33q5amUgFy58kzKMLz8C6OHBpa13rsXnmfTsAHL359K8YSbRqjU1A==",
+  "_location": "/emoji-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/emoji-syntax/versions/1.7.6/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/emoji-syntax/versions/1.7.6/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/emoji-syntax/versions/1.7.6/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/emoji-syntax/versions/1.7.6/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/emoji-syntax/versions/1.7.6/tarball",
+  "_shasum": "75aadb14b9a032c5177c31055be1b1d31e778465",
+  "_spec": "https://www.atom.io/api/packages/emoji-syntax/versions/1.7.6/tarball",
+  "_where": "/private/var/folders/41/b6s3bn7s57l0vfh0n4p0hmhh0000gq/T/apm-install-dir-2021619-33035-1n4y50l.x14s",
+  "author": {
+    "name": "Moritz Kröger",
+    "email": "write@morkro.de"
+  },
+  "bugs": {
+    "url": "https://github.com/morkro/atom-emoji-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "configstore": "^4.0.0",
+    "emojilib": "^2.3.0",
+    "event-kit": "^2.5.2"
+  },
+  "deprecated": false,
+  "description": "Adds customisable emoji to your syntax keywords",
+  "devDependencies": {
+    "standard": "^12.0.1"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/morkro/atom-emoji-syntax#readme",
+  "keywords": [
+    "emoji",
+    "syntax",
+    "language"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "emoji-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morkro/atom-emoji-syntax.git"
+  },
+  "scripts": {
+    "lint": "standard \"lib/**/*.js\" \"spec/**/*.js\""
+  },
+  "standard": {
+    "globals": [
+      "atom",
+      "HTMLElement",
+      "HTMLUListElement",
+      "CustomEvent"
+    ]
+  },
+  "version": "1.7.6"
+}

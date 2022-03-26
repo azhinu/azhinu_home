@@ -1,0 +1,49 @@
+{
+  "_from": "https://www.atom.io/api/packages/language-asterisk/versions/0.1.2/tarball",
+  "_id": "language-asterisk@0.1.2",
+  "_inBundle": false,
+  "_integrity": "sha512-sh+I89x7QG386N3B9iDjzx+EwVUImq1qlOhQglH+pXC4cV//6btneVEvyTTivTg8JJ5mCxonC5mQQh7Av9kkBw==",
+  "_location": "/language-asterisk",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/language-asterisk/versions/0.1.2/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/language-asterisk/versions/0.1.2/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/language-asterisk/versions/0.1.2/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/language-asterisk/versions/0.1.2/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/language-asterisk/versions/0.1.2/tarball",
+  "_shasum": "49f19ba1ae60ce4809884e2c5f28c70300e8932f",
+  "_spec": "https://www.atom.io/api/packages/language-asterisk/versions/0.1.2/tarball",
+  "_where": "/private/var/folders/41/b6s3bn7s57l0vfh0n4p0hmhh0000gn/T/apm-install-dir-120218-18119-kz1nw6.v1qem",
+  "bugs": {
+    "url": "https://github.com/asux/language-asterisk/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Language file for Asterisk config and AEL2",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/asux/language-asterisk#readme",
+  "keywords": [
+    "language",
+    "asterisk",
+    "config",
+    "ael",
+    "ael2",
+    "asterisk extended language"
+  ],
+  "license": "MIT",
+  "name": "language-asterisk",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asux/language-asterisk.git"
+  },
+  "version": "0.1.2"
+}

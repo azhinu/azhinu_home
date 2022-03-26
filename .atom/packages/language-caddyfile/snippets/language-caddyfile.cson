@@ -1,0 +1,97 @@
+'.source.Caddyfile':
+    'basicauth ...':
+        'prefix': 'basicauth'
+        'body': 'basicauth ${1:path} ${2:username} ${3:password}'
+    'bind ...':
+        'prefix': 'bind'
+        'body': 'bind ${1:host}'
+    'browse ...':
+        'prefix': 'browse'
+        'body': 'browse ${1:path} ${2:tplfile}'
+    'errors ...':
+        'prefix': 'errors'
+        'body': 'errors ${1:logfile}'
+    'expvar ...':
+        'prefix': 'expvar'
+        'body': 'expvar ${1:path}'
+    'ext ...':
+        'prefix': 'ext'
+        'body': 'ext ${1:extensions...}'
+    'fastcgi ...':
+        'prefix': 'fastcgi'
+        'body': 'fastcgi ${1:path} ${1:endpoint}'
+    'gzip':
+        'prefix': 'gzip'
+        'body': 'gzip'
+    'header ...':
+        'prefix': 'header'
+        'body': 'header ${1:path}  ${2:name} ${3:value}'
+    'import ...':
+        'prefix': 'import'
+        'body': 'import ${1:pattern}'
+    'index ...':
+        'prefix': 'index'
+        'body': 'index ${1:filenames...}'
+    'internal ...':
+        'prefix': 'internal'
+        'body': 'internal ${1:path}'
+    'limits ...':
+        'prefix': 'limits'
+        'body': 'limits ${1:size}'
+    'log ...':
+        'prefix': 'log'
+        'body': 'log ${1:file}'
+    'markdown ...':
+        'prefix': 'markdown'
+        'body': 'markdown ${1:basepath}'
+    'mime ...':
+        'prefix': 'mime'
+        'body': 'mime ${1:ext} ${2:type}'
+    'on ...':
+        'prefix': 'on'
+        'body': 'on ${1:event} ${2:command}'
+    'pprof':
+        'prefix': 'pprof'
+        'body': 'pprof'
+    'proxy ...':
+        'prefix': 'proxy'
+        'body': 'proxy ${1:from} ${2:to}'
+    'path ...':
+        'prefix': 'path'
+        'body': 'path ${1:path} ${2:resources...}'
+    'redir ...':
+        'prefix': 'redir'
+        'body': 'redir ${1:from} ${2:to} ${3:code}'
+    'request_id':
+        'prefix': 'request_id'
+        'body': 'request_id'
+    'rewrite ...':
+        'prefix': 'rewrite'
+        'body': 'rewrite ${1:from} ${2:to}'
+    'root ...':
+        'prefix': 'root'
+        'body': 'root ${1:path}'
+    'status ...':
+        'prefix': 'status'
+        'body': 'status ${1:code} ${2:path}'
+    'templates ...':
+        'prefix': 'templates'
+        'body': 'templates ${1:path} ${2:extensions...}'
+    'timeouts ...':
+        'prefix': 'timeouts'
+        'body': 'timeouts ${1:val}'
+    'tls off':
+        'prefix': 'tlsoff'
+        'body': 'tls off'
+    'tls self_signed':
+        'prefix': 'tls self_signed'
+        'body': 'tls self_signed'
+    'tls email':
+        'prefix': 'tlsemail'
+        'body': 'tls ${1:email}'
+    'tls cert key':
+        'prefix': 'tlscert'
+        'body': 'tls ${1:cert} ${2:key}'
+    'websocket ...':
+        'prefix': 'websocket'
+        'body': 'websocket ${1:path} ${2:command}'

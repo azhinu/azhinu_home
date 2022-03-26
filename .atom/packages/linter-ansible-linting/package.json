@@ -1,0 +1,75 @@
+{
+  "_from": "https://www.atom.io/api/packages/linter-ansible-linting/versions/1.8.0/tarball",
+  "_id": "linter-ansible-linting@1.8.0",
+  "_inBundle": false,
+  "_integrity": "sha512-wM3o8AfHRnrGeNZiw2NEYX9TNIYoghubxHSfpeMoGZ00b6LSCW4aQyNpWDl5fhGrg/pEpaKB00zKPdhFg4IVWQ==",
+  "_location": "/linter-ansible-linting",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/linter-ansible-linting/versions/1.8.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/linter-ansible-linting/versions/1.8.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/linter-ansible-linting/versions/1.8.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/linter-ansible-linting/versions/1.8.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/linter-ansible-linting/versions/1.8.0/tarball",
+  "_shasum": "a6dd95f951cb769ecd4fa5bd723aeffb3b543f38",
+  "_spec": "https://www.atom.io/api/packages/linter-ansible-linting/versions/1.8.0/tarball",
+  "_where": "/private/var/folders/j1/37y0ksws4dxfrvhwg2hwjdh00000gq/T/apm-install-dir-2022023-2293-4s11bn.0zjed",
+  "bugs": {
+    "url": "https://github.com/mschuchard/linter-ansible-linting/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "atom-linter": "^10.0.0"
+  },
+  "deprecated": false,
+  "description": "Ansible linting via ansible-lint",
+  "devDependencies": {
+    "babel-eslint": "latest",
+    "eslint": "latest"
+  },
+  "engines": {
+    "atom": ">0.95.0"
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "rules": {
+      "strict": 0
+    },
+    "env": {
+      "es6": true,
+      "browser": true,
+      "node": true
+    },
+    "globals": {
+      "atom": true
+    }
+  },
+  "homepage": "https://github.com/mschuchard/linter-ansible-linting#readme",
+  "keywords": [
+    "lint",
+    "linter",
+    "ansible",
+    "ansible-lint"
+  ],
+  "license": "MIT",
+  "main": "./lib/main.js",
+  "name": "linter-ansible-linting",
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "2.0.0": "provideLinter"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mschuchard/linter-ansible-linting.git"
+  },
+  "version": "1.8.0"
+}

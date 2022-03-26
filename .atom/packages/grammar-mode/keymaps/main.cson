@@ -1,0 +1,2 @@
+'atom-workspace atom-text-editor:not([mini])':
+  'cmd-shift-g': 'grammar-mode:recheck'

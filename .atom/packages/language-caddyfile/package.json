@@ -1,0 +1,46 @@
+{
+  "_from": "https://www.atom.io/api/packages/language-caddyfile/versions/0.1.7/tarball",
+  "_id": "language-caddyfile@0.1.7",
+  "_inBundle": false,
+  "_integrity": "sha512-mVc2zuGxbWfo1WSDgd3AE8SmA95Sdd05MA4iHQKgV6sKugE24Wj6XbKhKn5IpM3XDK4/3F6bVRT9JJ4Jo23quA==",
+  "_location": "/language-caddyfile",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/language-caddyfile/versions/0.1.7/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/language-caddyfile/versions/0.1.7/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/language-caddyfile/versions/0.1.7/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/language-caddyfile/versions/0.1.7/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/language-caddyfile/versions/0.1.7/tarball",
+  "_shasum": "a7360cf37859f29c7e6030d014f3e3c773a0b932",
+  "_spec": "https://www.atom.io/api/packages/language-caddyfile/versions/0.1.7/tarball",
+  "_where": "/private/var/folders/j1/37y0ksws4dxfrvhwg2hwjdh00000gq/T/apm-install-dir-2022026-8802-yyg5a.ldutbj",
+  "bugs": {
+    "url": "https://github.com/aaronellington/language-caddyfile/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Caddyfile syntax highlighting for Atom",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/aaronellington/language-caddyfile#readme",
+  "keywords": [
+    "Caddy",
+    "Caddyfile",
+    "language",
+    "grammar"
+  ],
+  "license": "MIT",
+  "name": "language-caddyfile",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronellington/language-caddyfile.git"
+  },
+  "version": "0.1.7"
+}
