@@ -52,12 +52,13 @@ Packages:
     webtorrent #Use torrents for video streaming
     whatmask #Calculate IP mask
     zsh # Update ZSH
+    iproute2mac #iproute2 port to mac
 
 
 lazydocker
 
 
-    Brew cli: brew install ansible-lint atom bat coreutils duf ffind fzf gdu git grep httpie jq lnav lorem lsd miniserve procs python ripgrep rsync sd sheldon shellcheck tealdeer  whatmask zsh
+    Brew cli: brew install ansible-lint atom bat coreutils duf ffind fzf gdu git grep httpie jq lnav lorem lsd miniserve procs python ripgrep rsync sd sheldon shellcheck tealdeer  whatmask zsh iproute2mac
     Brew casks: brew install keepassxc google-chrome telegram qbittorrent webtorrent hyper atom sqlectron spotify
 
     Other:
