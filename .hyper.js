@@ -163,7 +163,6 @@ module.exports = {
     'hyperpower',
     'hyper-sweet',
     "hyper-search",
-    "hyperterm-paste",
     "hyper-font-ligatures",
     "hyper-dnd-tabs",
   ],
