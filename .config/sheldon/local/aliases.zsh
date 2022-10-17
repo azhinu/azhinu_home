@@ -2,7 +2,7 @@
 $(which lolcat > /dev/null) && alias cat='lolcat'
 $(which duf > /dev/null) && alias df='duf' || alias df='df -h'
 $(which procs > /dev/null) && alias ps='procs -p disable' || alias ps='ps aux'
-$(which lsd > /dev/null) && alias ls='lsd -l' || alias ps='ls -GFhl'
+$(which lsd > /dev/null) && alias ls='lsd -l --total-size' || alias ps='ls -GFhl'
 
 # Aliases
 alias group='cat /etc/group'
