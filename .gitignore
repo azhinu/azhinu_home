@@ -4,9 +4,9 @@
 #But not these files...
 !.gitignore
 !.atom
-!.config/sheldon
-.config/sheldon/repos
-.config/sheldon/plugins.lock
+!.sheldon
+.sheldon/repos
+.sheldon/plugins.lock
 
 !.ssh
 .ssh/*
