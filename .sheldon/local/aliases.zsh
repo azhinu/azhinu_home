@@ -14,3 +14,5 @@ alias sudo='sudo '
 alias dotfiles="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 # Rsync preserve arrts. Works only with modern rsync
 alias rsync="rsync --acls --xattrs --crtimes --fileflags"
+# Compact docker ps
+alias docker_ps='docker ps --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Status}}"'
