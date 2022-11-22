@@ -49,7 +49,7 @@ path=(
   $brewprefix/opt/grep/libexec/gnubin
   $path
 )
-
+export HOMEBREW_CASK_OPTS=--no-quarantine
 #
 # Less
 #
